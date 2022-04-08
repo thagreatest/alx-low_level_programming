@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-  * main
+  * main - Function begins
   *
   * Return: Always (Success)
   */
@@ -16,7 +16,6 @@ int main(void)
 			putchar(c);
 		}
 	}
-	
 	putchar('\n');
 
 	return (0);
