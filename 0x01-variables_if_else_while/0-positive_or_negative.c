@@ -4,7 +4,7 @@
 /**
  * main - Prints the type of interger
  *
- * Returns - Always (Success)
+ * Return: Always (Success)
  */
 int main(void)
 {
@@ -19,5 +19,5 @@ printf("%d is zero\n", n);
 else
 printf("%d is negative\n", n);
 
-Return (0);
+return (0);
 }
