@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - Function begins
  *
  * Return: Always (Success)
  */
