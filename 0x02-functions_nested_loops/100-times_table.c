@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * P
+ * print_times_table - printing the multiplication table
  * @n : times table to use
  * Return:void
  */
