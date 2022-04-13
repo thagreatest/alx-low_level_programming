@@ -1,6 +1,7 @@
 #include "main.h"
 
-/*** print_times_table - prints times table
+/**
+ * P
  * @n : times table to use
  * Return:void
  */
