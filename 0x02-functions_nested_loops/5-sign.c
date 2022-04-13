@@ -17,7 +17,7 @@ _putchar('+');
 }
 else
 {
-test = -1
+test = -1;
 _putchar('-');
 }
 
