@@ -5,7 +5,7 @@
  *  Return: Always 0 or 1
  */
 
-int _islower(int m) 
+int _islower(int m)
 {
-    return (m >= 97 && m <= 122);
+return (m >= 97 && m <= 122);
 }
