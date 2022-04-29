@@ -2,7 +2,7 @@
 
 /**
  * factorial - main - checks the code
- * @s: number of factorial
+ * @n: number of factorial
  * Return: Always 0
  */
 
