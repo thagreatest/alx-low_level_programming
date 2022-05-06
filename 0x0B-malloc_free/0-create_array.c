@@ -9,20 +9,19 @@
   *Return: NULL if it fails or
   *Pointer to array.
   */
-
 char *create_array(unsigned int size, char c)
 {
 	char *arr;
 	unsigned int i;
 
-	if (size == 1)
+	if (size == 0)
 	{
 		return (NULL);
 	}
 
 	arr = malloc(sizeof(char) * size);
 
-	/* Checking to see if malloc works */
+	/* check if malloc was successful */
 
 	if (arr == NULL)
 		return (NULL);
@@ -33,5 +32,6 @@ char *create_array(unsigned int size, char c)
 	}
 
 	return (arr);
+
 }
 
