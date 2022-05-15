@@ -2,13 +2,13 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- * print_dog - Prints name, age and owner if not null
- * @d: is pointer to the struct dog
+ * print_dog - Prints name, age and owner if not null.
+ * @d: is pointer to the struct dog.
  *
- * Return: Nothing
+ * Return: nothing.
 **/
 
-void print_dog(struct *dog *d)
+void print_dog(struct dog *d)
 {
 if (d == NULL)
 {
@@ -28,7 +28,6 @@ if (d->owner == NULL)
 printf("Owner: (nil)\n");
 }
 else
-{
 printf("Owner: %s\n", d->owner);
 }
 
