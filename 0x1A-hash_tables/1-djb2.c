@@ -17,3 +17,9 @@ unsigned long int hash_djb2(const unsigned char *str)
 	}
 	return (hash);
 }
+/**
+ * hash_djb2_free - free the hash table
+ * @ht: hash table
+ *
+ * Return: void
+ */

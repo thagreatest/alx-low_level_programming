@@ -22,3 +22,10 @@ hash_table_t *hash_table_create(unsigned long int size)
 	}
 	return (ht);
 }
+/**
+ *hash_table_set- sets a value to a key in the hash table
+ *@ht: hash table
+ *@key: key to set
+ *@value: value to set
+ *Return: 0 on success, 1 on error
+ */
